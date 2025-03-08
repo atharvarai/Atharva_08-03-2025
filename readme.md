@@ -149,16 +149,17 @@ The report includes the following columns:
 
 ## Setup and Installation
 1. Clone the repository
-2. Create a virtual environment:
+2. Unzip the store-monitoring-data.zip file into the data directory
+3. Create a virtual environment:
    ```bash
     python -m venv venv
     venv\Scripts\activate # On Linux: source venv/bin/activate
    ```
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Set up the database:
+5. Set up the database:
 
    ```bash
    Create a MySQL database using Mysql workbench or using MySQL command line client and update .env file with credentials
